@@ -6,7 +6,7 @@ class Book:
         self.year = year
 
     def __str__(self):
-        return f"Название: {self.title}, Автор: {self.author}, Жанр: {self.genre},Год: {self.year}"
+        return f"Название: {self.title}, Автор: {self.author}, Жанр: {self.genre}, Год: {self.year}"
 
 
 class Library:
